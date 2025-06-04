@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include project_gantt *.css
+recursive-include project_gantt *.csv
+recursive-include project_gantt *.html
+recursive-include project_gantt *.ico
+recursive-include project_gantt *.js
+recursive-include project_gantt *.json
+recursive-include project_gantt *.md
+recursive-include project_gantt *.png
+recursive-include project_gantt *.py
+recursive-include project_gantt *.svg
+recursive-include project_gantt *.txt
+recursive-exclude project_gantt *.pyc
