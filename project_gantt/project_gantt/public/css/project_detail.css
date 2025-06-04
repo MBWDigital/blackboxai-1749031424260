@@ -1,0 +1,95 @@
+/* Dialog styling */
+.gantt-chart-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    min-height: 400px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+/* Loading state */
+.loading-state {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    color: #8D99A6;
+    font-size: 14px;
+}
+
+/* Controls section */
+.gantt-controls {
+    padding: 10px 0;
+    border-top: 1px solid #EBEEF0;
+    margin-top: 15px;
+    text-align: right;
+}
+
+/* Task popup styling */
+.gantt-task-info {
+    background: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    padding: 12px;
+    min-width: 200px;
+}
+
+.gantt-task-info h4 {
+    margin: 0 0 8px 0;
+    color: #1F272E;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.gantt-task-info p {
+    margin: 4px 0;
+    color: #505A62;
+    font-size: 12px;
+}
+
+/* Empty and error states */
+.no-tasks-message,
+.error-message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    color: #8D99A6;
+    font-size: 14px;
+    text-align: center;
+}
+
+.error-message {
+    color: #E24C4C;
+}
+
+/* Gantt chart specific styling */
+.gantt .bar {
+    fill: #4C9AFF;
+}
+
+.gantt .bar-progress {
+    fill: #2D7FF9;
+}
+
+.gantt .bar-invalid {
+    fill: #E24C4C;
+}
+
+.gantt .bar-label {
+    fill: #505A62;
+    font-size: 12px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .gantt-chart-container {
+        padding: 15px;
+        min-height: 300px;
+    }
+    
+    .gantt-task-info {
+        min-width: 160px;
+    }
+}
